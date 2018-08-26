@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/rrvImageView"
+        android:layout_width="79dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/rrv_name"
+        android:layout_marginStart="11dp"
+        app:srcCompat="@drawable/avatar1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="11dp" />
+
+    <TextView
+        android:id="@+id/rrv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="25dp"
+        android:padding="5dp"
+        android:text="NAME HERE"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="93dp" />
+
+    <TextView
+        android:id="@+id/rrv_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/rrv_name"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="51dp"
+        android:padding="5dp"
+        android:text="NUMBER HERE"
+        android:textColor="@android:color/black"
+        android:textSize="17sp"
+        android:layout_alignLeft="@+id/rrv_name" />
+
+</RelativeLayout>

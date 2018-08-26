@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Realm.RealmActivity">
+
+
+    <Button
+        android:id="@+id/viewButton2"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="54dp"
+        android:text="VIEW USER" />
+
+    <EditText
+        android:id="@+id/editNumber2"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="110dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editNumber"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userNumber"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/userNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/userName"
+        android:layout_marginTop="123dp"
+        android:text="Number"
+        android:textSize="17sp"
+        android:layout_alignLeft="@+id/userName"
+        tools:ignore="RtlCompat" />
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/editName"
+        android:layout_marginTop="38dp"
+        android:text="Name"
+        android:textSize="17sp"
+        android:layout_alignLeft="@+id/editName" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/userName"
+        android:layout_marginTop="215dp"
+        android:text="ADD"
+        android:layout_alignLeft="@+id/userName"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/viewButton"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editName"
+        android:layout_alignTop="@+id/addButton"
+        android:text="VIEW"
+        android:layout_alignRight="@+id/editName" />
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/userName"
+        android:layout_marginBottom="185dp"
+        android:text="UPDATE"
+        android:layout_alignLeft="@+id/userName"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editName"
+        android:layout_alignTop="@+id/updateButton"
+        android:text="DELETE"
+        android:layout_alignRight="@+id/editName" />
+</RelativeLayout>

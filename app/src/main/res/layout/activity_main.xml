@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TheRecyclerView.MainActivity">
+
+
+    <Button
+        android:id="@+id/buttonRealmRV"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/theButton"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/btn_background"
+        android:text="REALM+RV"
+        android:textColor="@android:color/white"
+        android:textSize="13sp"
+        android:visibility="visible"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/realmButton2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/realmButton"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/btn_background"
+        android:text="REALM 2"
+        android:textColor="@android:color/white"
+        android:visibility="visible"
+        android:layout_alignLeft="@+id/realmButton"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/realmButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/retrofitButton"
+        android:layout_marginBottom="176dp"
+        android:background="@drawable/btn_background"
+        android:text="REALM"
+        android:textColor="@android:color/white"
+        android:visibility="visible"
+        android:layout_alignLeft="@+id/retrofitButton"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/retrofitButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/theButton"
+        android:layout_marginTop="142dp"
+        android:background="@drawable/btn_background"
+        android:text="RETROFIT"
+        android:textColor="@android:color/white"
+        android:visibility="visible"
+        android:layout_alignLeft="@+id/theButton"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:id="@+id/theButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/btn_background"
+        android:text="PROCEED"
+        android:textColor="@android:color/white"
+        android:visibility="visible"
+        android:layout_alignParentLeft="true"
+        tools:ignore="RtlCompat" />
+</RelativeLayout>
